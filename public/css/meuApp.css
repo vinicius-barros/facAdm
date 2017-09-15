@@ -1,0 +1,279 @@
+.meu-body {
+    background-color:#ecf0f1; 
+     
+}
+.c-cor{
+    background-color: #1e87f0;
+    
+}
+.meu-container {
+    margin: 10%;
+}
+.container-fluid-cor{   
+    color:black;
+    padding: 5px;
+}
+.home-icones{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.icone-painel {
+    text-decoration: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.icone-painel:hover {
+    text-decoration: none;
+}
+.rotulo-ico{
+    color: #337ab7;
+    font-size: 16px;
+}
+.ico-dash {
+    color: #c7254e;
+    opacity: 0.5;
+}
+.ico-dash:hover {
+    color: #c7254e;
+    opacity: 0.9;
+}
+.ico-add-user{
+    color: #67b168;
+    opacity: 0.5;
+}
+.ico-add-user:hover{
+    color:#259d6d;
+    opacity: 0.9;
+}
+.ico-list-users {
+    color: #6b9dbb;
+    opacity: 0.5;
+}
+.ico-list-users:hover{
+    color: #1e87f0;
+    opacity: 0.9;
+}
+.ico-op{
+    color: orangered;
+    opacity: 0.2;
+}
+.ico-op:hover{
+    color: orangered;
+    opacity: 0.6;
+}
+.ico-manutencao {
+    color:silver;
+    opacity: 1.0;
+}
+.ico-manutencao:hover {
+    color: #666666;
+    opacity: 0.8;
+}
+.ico-estoque{
+    color: #761c19;
+    opacity: 0.3;
+}
+.ico-estoque:hover{
+    color: #761c19;
+    opacity: 0.7;
+}
+.ico-inventario {
+    color: blueviolet;
+    opacity: 0.3;
+}
+.ico-inventario:hover {
+    color: blueviolet;
+    opacity: 0.8;
+}
+.ico-cf{
+    color: green;
+    opacity: 0.4;
+}
+.ico-cf:hover{
+    color: green;
+    opacity: 0.7;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.fundo{
+    background-color: #666666;
+    /*opacity: 0.1;*/
+}
+
+
+/* ################################Estilo do Dash Board######################################### */
+
+/******************************Inicio Carousel Produção Inividual*******************************/
+/* carousel */
+#quote-carousel {
+    padding: 0 ;
+    margin-top: 10px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control {
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+/* Previous button  */
+#quote-carousel .carousel-control.left {
+    left: -12px;
+}
+
+/* Next button  */
+#quote-carousel .carousel-control.right {
+    right: -12px !important;
+}
+
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li {
+    background: #c0c0c0;
+}
+
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+}
+
+#quote-carousel img {
+    width: 250px;
+    height: 100px
+}
+
+/* End carousel */
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    /*content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;*/
+}
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #quote-carousel {
+        margin-bottom: 0;
+        /*padding: 0 40px 30px 40px;*/
+        margin-top: 0px;
+    }
+
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;
+    }
+
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+/******************************Fim Carousel Produção Individual*******************************/
+
+/******************************Inicio Carousel dos Cartoẽs*******************************/
+
+
+
+/******************************Fim Carousel dos Cartoẽs*******************************/
+
+.div-center{
+    margin-left: 90px;
+
+}
+.row-card{
+    margin-bottom: 50px;
+}
+.card-body{
+    height: 200px;
+}
+.grupo-indicador-sm{
+    margin-left: 45px;
+}
+.indicador-sm{
+    margin-right:30px; 
+    margin-left:0;                
+    background-color: #fff;    
+    color:black;
+}
+.card-color{
+    background-color: #bdc3c7;
+}
+.image-card{
+    width: 110px;
+    height: 110px;
+    margin:0;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 0;
+    
+}
+.indicador-md{
+    margin: 2%;
+    background-color: #fff;    
+    color:black;    
+    height: 400px;
+}
+.titulo-cartao{
+    color:#BBDEFB;
+    margin-bottom: 15px;
+}
+.horas-producao{
+    margin-left: 5px;
+}
+.nome-card{
+    color: #1e87f0;
+    margin-top: 40px;
+}
+.cd-body{
+    margin-top: 30px;
+    width: 100%;
+    height: 100% !important;
+}
+.alinhar-h{
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+    height: 100%;
+    /*background-color: #0e6dcd;*/
+}
+.cor-h3 {
+    color: #337ab7;
+    margin: 2px;
+}
+.navbar-brand {
+    color: #337ab7;
+}
+
+.form-horizontal {
+    color: #337ab7;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+.autenticar{
+
+    margin-top: 230px;
+
+}
+ .panel-edit {
+     margin-top: 20px;
+ }
+.panel-head{
+    background-color: transparent!important;
+}
+
+.modal-margem {
+    margin-top:50px;
+}
+.form-cor {
+    background-color: silver;
+}
+.botao-cadastrar{
+    color:#337ab7;
+    opacity: 0.5;
+    float: right;
+    margin-top: 5px;
+    text-decoration: none;
+    border:none!important;
+}
+.botao-cadastrar:focus{  /* Tira a borda de sombra do botão*/
+    outline:0;
+}
+.botao-cadastrar:hover{
+    color:#337ab7;
+    opacity: 1.0;
+    text-decoration: none;
+}
+.botao-cadastrar:link ,
+.botao-cadastrar:visited,
+.botao-cadastrar:active{
+    text-decoration: none;
+}
+
